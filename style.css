@@ -1,0 +1,125 @@
+
+/* footer section */
+.Container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 0 50px 50px;
+    font-family: "PT Sans",sans-serif;
+    background: #fbdc00;
+}
+.NavList{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.MainContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: underline;
+    color: #434343;
+}
+.NavitemFooter{
+    display: flex;
+    flex-direction: column;
+}
+.Footeritem{
+    flex-direction: row;
+    align-items: center;
+    margin: 8px 0;
+}
+.FooterListItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 8px;
+}
+.Hyperlink {
+    font-family: 'PT Sans';
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+.Hyperlink:hover {
+    text-decoration: underline;
+}
+
+.PortContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+    background-color: #ebbe00;
+}
+
+.FclPort .LclPort .AirPort{
+    display: flex;
+    flex-direction: column;
+}
+
+.Port{
+    line-height: 2rem;
+}
+
+.Port > a {
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-size: 14px;
+}
+
+.Port > a:hover {
+    color: #ee3425;
+}
+
+a {
+    color: black;
+}
+
+footer{
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 30px;
+    background: #ebbe00;
+
+}
+.BottomFooterLeft{
+    display: flex;
+    align-items: center;
+}
+.CopyrightListCogo
+{
+    display: flex;
+    margin-left: 10px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    list--type: none;
+}
+.CopyrightList{
+    display: flex;
+    margin-left: 10px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    list--type: none;
+}
+.CopyrightListMobile{
+    display: none;
+}
+.SocialMedia{
+    padding: 8px 30px;
+}
