@@ -276,6 +276,158 @@
     justify-content: center;
 }
 
+/* how it works section */
+.works {
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.works-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.works-content-head {
+    font-size: 28px;
+    margin-bottom: 1em;
+}
+
+.works-content-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-content-options-active {
+    width: 200px;
+    padding: 20px;
+    margin: 0 20px;
+    font-weight: 700;
+    color: #000!important;
+    border-radius: 20px;
+    background-color: #fbdc00!important;
+    border: #fbdc00!important;
+    min-width: 72px;
+    height: 36px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.works-content-options-inactive {
+    width: 200px;
+    padding: 20px;
+    margin: 0 20px;
+    font-weight: 700;
+    color: #000!important;
+    border-radius: 20px;
+    background: #e5dfdf!important;
+    border: grey!important;
+    min-width: 72px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    cursor: pointer;
+    outline: none;
+}
+
+.works-display-section {
+    position: relative;
+    display: flex;
+}
+
+.works-display-section-img {
+    display: none;
+}
+
+.stage1 {
+    margin-bottom: 120px;
+}
+
+
+.stage-head1 {
+    font-weight: 600;
+    color: #ee3425;
+}
+
+.stages-para {
+    padding-bottom: 5px;
+    padding-left: 8px;
+    margin: 0;
+}
+
+.arrow1 {
+    position: absolute;
+    top: 104px;
+    left: 300px;
+}
+
+.stages-display-main {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+
+.stages-display-main span{
+    display: flex;
+}
+.stage-head2 {
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px;
+    margin: 0;
+    list-style-position: outside;
+}
+
+.arrow2 {
+    position: absolute;
+    bottom: 116px;
+    left: 300px;
+}
+
+.styles_arrowimage__50gz2 {
+    width: 150px;
+    height: 60px;
+}
+
+.styles_imagecontainer__7Ps6C {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styles_image__cFHAa {
+    width: 560px;
+    height: 320px;
+}
+
+.arrow3 {
+    position: absolute;
+    top: 104px;
+    right: 300px;
+}
+
+.styles_stage3__anVPg {
+    margin-bottom: 120px;
+}
+
+.arrow4 {
+    position: absolute;
+    right: 300px;
+    bottom: 116px;
+}
+
 /* industries served section */
 
 .industries-served {
