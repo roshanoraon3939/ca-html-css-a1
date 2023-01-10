@@ -8,19 +8,88 @@
 }
 
 /* navbar section */
+.border {
+    border: 2px solid red;
+}
+
+.navbar {
+    background-color: #fbdc00;
+    font-size: 14px;
+    padding: 0.6rem 6.5rem;
+    overflow: hidden;
+    top: 0;
+    position: relative;
+    width: 100%;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.navbar-items__link {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.navbar-items__links>ul>li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.login-signup {
+    display: flex;
+    align-items: center;
+}
+
+.login-signup>div {
+    padding: 0.8rem;
+}
+
+.signup-btn {
+    background-color: red;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid red;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 /* Banner part */
 
 .banner {
     position: relative;
     width: 100%;
-    background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
+    background: url("./images/home-banner-background-1.webp");
     background-color: #fbdc00;
     background-repeat: no-repeat;
     background-position: 50%;
     display: flex;
     flex-direction: row;
-    padding: 0 7rem;
+    padding: 0 9rem;
 
 }
 
@@ -186,6 +255,9 @@
     align-items: center;
 }
 
+.card h4{
+    text-align: center;
+}
 .card:hover {
     border: 1px solid red;
 }
@@ -195,9 +267,10 @@
 }
 
 .card-description {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     color: red;
 }
+
 
 /* trusted section */
 .trusted {
