@@ -23,7 +23,7 @@
 }
 
 .banner-inspiration {
-    margin-top: 8rem;
+    padding-top: 6rem;
 }
 
 .banner .banner-inspiration {
@@ -229,6 +229,42 @@
     align-items: center;
     justify-content: center;
 }
+
+/* industries served section */
+
+.industries-served {
+    padding: 16px!important;
+    margin-bottom: 50px;
+    background: #fffef3;
+}
+
+.industries-served-info {
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.industries-served-head{
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.industries-served-name {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.industries-served-name-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
 
 /* newsletter section */
 .newsletter{
